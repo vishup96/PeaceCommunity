@@ -1,0 +1,325 @@
+@media screen and (min-width: 300px) and (max-width:767px) {
+
+
+    #sermons-carousel button.owl-prev {
+        display: none;
+    }
+    #sermons-carousel button.owl-next {
+        display: none;
+    }
+    .logo img {
+        width: 58%;
+        margin: 0;
+        max-width: 100%;
+    }
+    .stellarnav.mobile {
+        margin-left: 10px;
+    }
+    .banner-img img {
+        height: 310px;
+        object-fit: cover;
+    }
+    .banner-content h2 {
+        font-size: 16px;
+    }
+    .banner-content p {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .banner-content a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    button.owl-prev {
+        top: 78%;
+        left: 8%;
+    }
+    button.owl-next {
+        top: 78%;
+        right: 25px;
+    }
+    .about-img img {
+        height: 230px;
+        object-fit: cover;
+    }
+    .about-content h2 {
+        font-size: 20px;
+    }
+    .about-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .about-content {
+        padding: 20px;
+    }
+    .about-content a {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .services {
+        padding: 25px;
+    }
+    .services h3 {
+        font-size: 12px;
+    }
+    .services h3:after{
+        display: none;
+    }
+    .services h3:before{
+        display: none;
+    }
+    .services h2 {
+        font-size: 20px;
+    }
+    .services p {
+        font-size: 14px;
+    }
+    .devo-content h3 {
+        font-size: 20px;
+    }
+    .devo-content p {
+        font-size: 15px;
+    }
+    .helpers-footer-content p {
+        font-size: 20px;
+    }
+    a.meeting-link {
+        padding: 5px 25px;
+    }
+    .sermons-section {
+        padding: 35px 0px;
+    }
+    .sermons-section h3:before {
+        width: 50px;
+        left: -14px;
+    }
+    .sermons-section h3:after {
+        top: -4px;
+        width: 50px;
+    }
+    .sermons-section h2 {
+        font-size: 25px;
+    }
+    .sermons-section p {
+        font-size: 14px;
+    }
+    .jesus-said-content img {
+        display: none;
+    }
+    .jesus-said-content h3 {
+        font-size: 16px;
+    }
+    .jesus-said-content p {
+        font-size: 14px;
+    }
+    .jesus-said-content {
+        padding: 12px;
+    }
+    .jesus-said-content h5 {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .jesus-sec img {
+        height: 350px;
+    }
+    .jesus-said-content a {
+        padding: 6px 30px;
+    }
+    .footer-logo-sec {
+        padding: 50px;
+    }
+    .map img {
+        object-fit: cover;
+    }
+    .links {
+        padding: 15px;
+    }
+    .contacts {
+        padding: 15px;
+    }
+    .copyright {
+        padding: 0px 15px;
+    }
+    .copyright ul {
+        font-size: 12px;
+    }
+
+    .helpers-footer-content {
+    
+        flex-direction: column;
+    }
+
+    .helpers-footer-content p{
+        margin-bottom:1rem;
+    }
+
+    .footer-logo-sec img {
+        width: 286px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .banner {
+        
+        height: 310px;
+    }
+
+    .header-part {
+      
+        position: static;
+      
+    }
+
+    .stellarnav.mobile {
+        text-align: right;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .stellarnav.mobile>ul>li>a {
+     
+        color: #fff;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .helpers-footer-content {
+    
+        flex-direction: column;
+    }
+
+    .helpers-footer-content p{
+        margin-bottom:1rem;
+    }
+    .logo img {
+        margin-left: 60px;
+    }
+    .banner-content h2 {
+        font-size: 38px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    button.owl-prev {
+        top: 52%;
+        left: 10%;
+    }
+    button.owl-next {
+        right: 80px;
+        top: 52%;
+    }
+    .about-content {
+        padding: 22px 28px 20px 30px;
+    }
+    .about-content h2 {
+        font-size: 28px;
+    }
+    .about-content p {
+        font-size: 14px;
+    }
+    .helpers-footer-content p {
+        font-size: 14px;
+    }
+    a.meeting-link {
+        padding: 10px 25px;
+    }
+    .jesus-said-content {
+        padding: 0px 175px;
+    }
+    .jesus-said-content h3 {
+        font-size: 25px;
+    }
+    .jesus-said-content p {
+        font-size: 14px;
+    }
+    .jesus-said-content img {
+        display: none;
+    }
+    .jesus-said-content h5 {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    #sermons-carousel button.owl-prev {
+        display: none;
+    }
+    #sermons-carousel button.owl-next {
+        display: none;
+    }
+    .map img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .footer-logo-sec {
+        padding: 65px 45px 62px 45px;
+    }
+    .links {
+        padding: 50px 40px;
+    }
+    .contacts {
+        padding: 50px 40px;
+    }
+
+   
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .logo img {
+        margin-left: 70px;
+    }
+    .stellarnav.desktop ul li a {
+        padding: 8px 5px;
+    }
+    .banner-content h2 {
+        font-size: 40px;
+    }
+    .header-part {
+        padding: 10px 10px;
+    }
+ 
+    .banner-content p {
+        font-size: 16px;
+    }
+    .banner-content a {
+        padding: 8px 12px;
+    }
+    .about-img img {
+        height: 585px;
+    }
+    .helpers-footer-content p {
+        font-size: 16px;
+    }
+    a.meeting-link {
+        padding: 12px 30px;
+    }
+    #sermons-carousel button.owl-next {
+        display: none;
+    }
+    #sermons-carousel button.owl-prev {
+        display: none;
+    }
+    .jesus-said-content h3 {
+        font-size: 32px;
+    }
+    .jesus-said-content img {
+        width: 8%;
+    }
+    .jesus-said-content p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .jesus-said-content h5 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .footer-logo-sec {
+        padding: 55px 55px 0 35px;
+    }
+}
+

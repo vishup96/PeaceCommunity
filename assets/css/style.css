@@ -1,0 +1,536 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    list-style: none;
+}
+
+p,ul{
+    margin:0px;
+}
+
+/* ------------------ header css */
+.logo img {
+    width: 30%;
+    max-width: 100%;
+    margin-left: 210px;
+}
+.header-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5px 10px;
+    z-index: 999;
+    background: #fff;
+}
+.stellarnav.desktop ul li a {
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+}
+.stellarnav.desktop ul li a:hover {
+    color: #578d72;
+}
+
+/* ------------------ banner-css */
+.banner {
+    position: relative;
+    height:610px;
+}
+.banner-img img {
+    width: 100% !important;
+    object-fit: cover;
+    height: 610px;
+    background: #070807b0;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 15px;
+}
+.banner-content h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.banner-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: #1ad076;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+}
+button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    color: #fff !important;
+    transform: translate(0px, -50%);
+}
+button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    color: #fff !important;
+    transform: translate(0px, -50%);
+}
+.owl-prev:before {
+    content: '';
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+.owl-next:before {
+    content: '';
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+#banner-carousel button:hover::before{
+    border: 2px solid #19c671;
+    transition: 0.5s all ease-in-out;
+}
+#banner-carousel button:hover svg{
+     color: #19c671 !important;
+     transition: 0.5s all ease-in-out;
+}
+
+/* ------------------ about-css */
+.about-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.about-content {
+    padding: 40px 105px 43px 50px;
+    background: #f6f6f6;
+}
+.about-content h2 {
+    color: #266d4a;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about-content p {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.about-content a {
+    padding: 8px 25px;
+    background: #266d4a;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.about-content a:hover {
+    color: #fff;
+}
+
+/* ----------------- services-css */
+.services {
+    text-align: center;
+    padding: 50px;
+}
+.services h3 {
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: #cfcfcf;
+}
+.services h3:before {
+    content: '';
+    display: inline-block;
+    border-bottom: 1px solid #cfcfcf;
+    width: 85px;
+    position: relative;
+    left: -38px;
+    top: -4px;
+}
+.services h3:after {
+    content: '';
+    display: inline-block;
+    border-bottom: 1px solid #cfcfcf;
+    width: 85px;
+    position: relative;
+    top: -4px;
+    right: -20px;
+}
+.services h2 {
+    font-size: 30px;
+    color: #266d4a;
+    margin: 15px;
+    font-weight: 700;
+}
+.services p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: open-sans;
+    color: #808080;
+}
+
+/* --------------- helper-sec-css */
+.helpers-sec {
+    text-align: center;
+}
+.devo-content {
+    padding: 50px 0px;
+}
+.devo-content img {
+    margin-bottom: 20px;
+}
+.devo-content style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.devo-content h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.devo-content p {
+    color: #d4d4d4;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.devo-content a {
+    padding: 5px 10px;
+    background: #fff;
+    color: #25734a;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.devo-content a:hover {
+    background: #1ad076;
+    color: #fff;
+    transition: 0.5s all ease-in-out;
+}
+.helpers-footer-content {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helpers-footer-content style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.helpers-footer-content p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+}
+a.meeting-link {
+    padding: 10px 40px;
+    background: #266d4a;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+a.meeting-link:hover {
+    color: #fff;
+}
+
+/* ------------ sermons-css */
+.sermons-section {
+    text-align: center;
+    padding: 90px 0px;
+}
+.items img {
+    height: 430px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.sermons-section h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cfcfcf;
+    letter-spacing: 5px;
+}
+.sermons-section h3:before {
+    content: '';
+    display: inline-block;
+    border-bottom: 1px solid #cfcfcf;
+    width: 85px;
+    position: relative;
+    left: -38px;
+    top: -4px;
+}
+.sermons-section h3:after {
+    content: '';
+    display: inline-block;
+    border-bottom: 1px solid #cfcfcf;
+    width: 85px;
+    position: relative;
+    top: -4px;
+    right: -20px;
+}
+.sermons-section h2 {
+    font-size: 30px;
+    color: #266d4a;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.sermons-section p {
+    font-size: 16px;
+    color: #808080;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#sermons-carousel button.owl-prev {
+    position: relative;
+    bottom: 345px;
+    left: -45px;
+    color: #808080 !important;
+}
+#sermons-carousel button.owl-prev:before {
+    content: '';
+    border: 2px solid #808080;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+#sermons-carousel button.owl-next {
+    position: relative;
+    bottom: 345px;
+    left: 45px;
+    color: #808080 !important;
+}
+#sermons-carousel button.owl-next:before {
+    content: '';
+    border: 2px solid #808080;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -5px;
+    left: -10px;   
+}
+#sermons-carousel button:hover::before{
+    border: 2px solid #19c671;
+    transition: 0.6s all ease-in-out;
+}
+.sermons-section button:hover svg{
+     color: #19c671 !important;
+     transition: 0.6s all ease-in-out;
+}
+.items h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #246445;
+    margin-top: 20px;
+}
+.items p {
+    font-size: 13px !important;
+    letter-spacing: 2px;
+}
+.sermons-button a {
+    background: #266d4a;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: lora;
+}
+.sermons-button a:hover {
+    color: #fff;
+}
+
+/* ------------ jesus-said css */
+.jesus-sec img {
+    width: 100%;
+}
+.jesus-sec {
+    position: relative;
+}
+.jesus-said-content {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.jesus-said-content img {
+    width: 10%;
+    margin-bottom: 35px;
+}
+.jesus-said-content h3 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.jesus-said-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #e4e3e3;
+    letter-spacing: 1px;
+}
+.jesus-said-content h5 {
+    color: #1ad076;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.jesus-said-content a {
+    background: #fff;
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: #0e6725;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ------------ footer css */
+.map img {
+    height: 275px;
+    max-width: 100%;
+}
+.footer-logo-sec {
+    text-align: center;
+    padding: 55px 155px 0 35px;
+}
+.footer-logo-sec img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer-logo-sec a {
+    padding: 8px 18px;
+    background: #266d4a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 35px;
+}
+svg.svg-inline--fa.fa-facebook {
+    color: #266d4a;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+.links h3 {
+    color: #266d4a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.links ul {
+    column-count: 2;
+    padding: 0;
+    font-size: 14px;
+    color: #808080;
+}
+.links {
+    padding: 50px 0;
+}
+.links ul li a {
+    color: #808080;
+}
+.links ul li {
+    margin-bottom: 10px;
+}
+.contacts {
+    padding: 50px 0;
+}
+.contacts h3 {
+    color: #266d4a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contacts ul {
+    padding: 0;
+    font-size: 14px;
+    color: #808080;
+}
+.contacts ul li span {
+    color: #266d4a;
+    margin-right: 10px;
+}
+.contacts ul li {
+    margin-bottom: 10px;
+}
+.contacts ul li a {
+    color: #808080;
+}
+.copyright {
+    background: #f5f5f5;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.copyright ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+}
+.copyright ul li span {
+    color: #266d4a;
+}
+.map img {
+    width: 100%;
+}
+
+.links ul li a {
+    color: rgb(128, 128, 128);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.links ul li a:hover{
+    color: #266d4a;
+}
+
+.stellarnav.mobile ul {
+   
+    background: rgb(38 109 74);
+}
+
+.stellarnav.mobile li a {
+    border-bottom: 1px solid rgb(255 255 255);
+}
